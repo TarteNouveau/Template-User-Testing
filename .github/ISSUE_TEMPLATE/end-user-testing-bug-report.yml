@@ -48,16 +48,7 @@ body:
 - type: input
   attributes:
     label: Screenshots/Video
-    description: Please provide screenshots and/or video to help the team understand the error. 
+    description: Please provide screenshots and/or video to help the team understand the error.
+    placeholder: Use the paperclip below this text box to paste, drop, or click to add your file
   validations:
     required: False
-- type: dropdown
-  attributes:
-    label: Issue Type
-    description: Is this a bug or an enhancement request?
-    multiple: false
-    options:
-      - label: "Bug"
-      - label: "Enhancement"
-  validations:
-    required: true
