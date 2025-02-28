@@ -4,7 +4,7 @@ title: End User Testing Bug Report
 labels: bug
 assignees: devonliana
 body:
-- type: Input
+- type: input
   attributes:
     label: Reporter Name
     description: Provide your name
