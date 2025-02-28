@@ -45,7 +45,7 @@ body:
     placeholder: When I clicked submit, I got an error that said I did not enter 50+ characters. I checked to see if I entered 50+ characters and I did. 
   validations:
     required: true
-- type: input
+- type: textarea
   attributes:
     label: Screenshots/Video
     description: Please provide screenshots and/or video to help the team understand the error.
