@@ -4,6 +4,12 @@ title: End User Testing Bug Report
 labels: bug
 assignees: devonliana
 body:
+type: Input
+  attributes:
+    label: Reporter Name
+    description: Provide your name
+  validations:
+    required: true
 - type: textarea
   attributes:
     label: Scenario Details
@@ -25,14 +31,14 @@ body:
     placeholder: 1) Clicked into the tab for impact percentage 2) entered impact percentage for all direct reports 3) entered a 50+ character reward justification 4) Clicked Submit
   validations:
     required: True
-- type: input
+- type: textarea
   attributes:
     label: Expected Result
     description: What did you anticipate happening?
     placeholder: When submit was clicked, I expected an confirmation message that the impact percentages were successful 
   validations:
     required: true
-- type: input
+- type: textarea
   attributes:
     label: Actual Result
     description: What did happen?
