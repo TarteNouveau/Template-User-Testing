@@ -1,0 +1,52 @@
+name: New Program Template
+description: This is a new template that should be utilized for each new program
+title: '⚪️ Overwrite with Program Name {Team Name}'
+labels: Program Template
+assignees: bashenafi
+body:
+- type: textarea
+  attributes:
+    label: Program Overview
+    description: Please provide the program overview such as background, problem statement, scope, and key/impacted stakeholders
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Program Goals & Timeline
+    description: Please provide the high-level program milestones and associated timelines
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Important Links
+    description: Please provide any important links e.g. program/project repo
+    placeholder: Please provide links to all open reviews, eg Privacy, GRC, Accessibility.
+  validations:
+    required: False
+- type: input
+  attributes:
+    label: Sponsoring organization(s)
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Other Key Stakeholders
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Program Manager
+  validations:
+    required: true
+
+- type: dropdown
+  attributes:
+    label: Priority
+    description: What is the priority level of this program?
+    multiple: false
+    options:
+      - label: "High"
+      - label: "Medium"
+      - label: "Low"
+  validations:
+    required: true
