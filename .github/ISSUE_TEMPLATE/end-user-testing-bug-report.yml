@@ -1,52 +1,56 @@
-name: New Program Template
-description: This is a new template that should be utilized for each new program
-title: '⚪️ Overwrite with Program Name {Team Name}'
-labels: Program Template
-assignees: bashenafi
+name: End User Testing Bug Reporting Template
+description: Template to report bugs for each program during end user testing
+title: End User Testing Bug Report
+labels: bug
+assignees: devonliana
 body:
 - type: textarea
   attributes:
-    label: Program Overview
-    description: Please provide the program overview such as background, problem statement, scope, and key/impacted stakeholders
+    label: Scenario Details
+    description: Provide the scenario item number and scenario from the testing workbook
+    placeholder: Ex: 1b, Enter impact percentage for the team
+    required: true
+- type: textarea
+  attributes:
+    label: Description
+    description: What happened?
+    placeholder: Ex: Recieved an error after submission
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Program Goals & Timeline
-    description: Please provide the high-level program milestones and associated timelines
+    label: Steps
+    description: Outline the steps you took when you encountered the bug
+    placeholder: Ex: 1) Clicked into the tab for impact percentage 2) entered impact percentage for all direct reports 3) entered a 50+ character reward justification 4) Clicked Submit
   validations:
-    required: true
-- type: textarea
-  attributes:
-    label: Important Links
-    description: Please provide any important links e.g. program/project repo
-    placeholder: Please provide links to all open reviews, eg Privacy, GRC, Accessibility.
-  validations:
-    required: False
+    required: True
 - type: input
   attributes:
-    label: Sponsoring organization(s)
-  validations:
+    label: Expected Result
+    description: What did you anticipate happening?
+    placeholder: Ex: When submit was clicked, I expected an confirmation message that the impact percentages were successful 
+    validations:
     required: true
 - type: input
   attributes:
-    label: Other Key Stakeholders
-  validations:
+    label: Actual Result
+    description: What did happen?
+    placeholder: Ex: When I clicked submit, I got an error that said I did not enter 50+ characters. I checked to see if I entered 50+ characters and I did. 
+    validations:
     required: true
 - type: input
   attributes:
-    label: Program Manager
-  validations:
-    required: true
-
+    label: Screenshots/Video
+    description: Please provide screenshots and/or video to help the team understand the error. 
+    validations:
+    required: Fals
 - type: dropdown
   attributes:
-    label: Priority
-    description: What is the priority level of this program?
+    label: Issue Type
+    description: Is this a bug or an enhancement request?
     multiple: false
     options:
-      - label: "High"
-      - label: "Medium"
-      - label: "Low"
+      - label: "Bug"
+      - label: "Enhancement
   validations:
     required: true
