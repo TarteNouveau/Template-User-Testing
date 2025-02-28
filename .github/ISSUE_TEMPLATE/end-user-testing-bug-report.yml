@@ -51,6 +51,6 @@ body:
     multiple: false
     options:
       - label: "Bug"
-      - label: "Enhancement
+      - label: "Enhancement"
   validations:
     required: true
