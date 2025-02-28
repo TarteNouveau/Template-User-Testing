@@ -9,7 +9,7 @@ body:
     label: Scenario Details
     description: Provide the scenario item number and scenario from the testing workbook
     placeholder: 1b, Enter impact percentage for the team
-  Validations:
+  validations:
     required: true
 - type: textarea
   attributes:
