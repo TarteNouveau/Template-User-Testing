@@ -8,34 +8,34 @@ body:
   attributes:
     label: Scenario Details
     description: Provide the scenario item number and scenario from the testing workbook
-    placeholder: Ex: 1b, Enter impact percentage for the team
+    placeholder: Ex - 1b, Enter impact percentage for the team
     required: true
 - type: textarea
   attributes:
     label: Description
     description: What happened?
-    placeholder: Ex: Recieved an error after submission
+    placeholder: Ex - Recieved an error after submission
   validations:
     required: true
 - type: textarea
   attributes:
     label: Steps
     description: Outline the steps you took when you encountered the bug
-    placeholder: Ex: 1) Clicked into the tab for impact percentage 2) entered impact percentage for all direct reports 3) entered a 50+ character reward justification 4) Clicked Submit
+    placeholder: Ex - 1) Clicked into the tab for impact percentage 2) entered impact percentage for all direct reports 3) entered a 50+ character reward justification 4) Clicked Submit
   validations:
     required: True
 - type: input
   attributes:
     label: Expected Result
     description: What did you anticipate happening?
-    placeholder: Ex: When submit was clicked, I expected an confirmation message that the impact percentages were successful 
+    placeholder: Ex - When submit was clicked, I expected an confirmation message that the impact percentages were successful 
     validations:
     required: true
 - type: input
   attributes:
     label: Actual Result
     description: What did happen?
-    placeholder: Ex: When I clicked submit, I got an error that said I did not enter 50+ characters. I checked to see if I entered 50+ characters and I did. 
+    placeholder: Ex - When I clicked submit, I got an error that said I did not enter 50+ characters. I checked to see if I entered 50+ characters and I did. 
     validations:
     required: true
 - type: input
@@ -43,7 +43,7 @@ body:
     label: Screenshots/Video
     description: Please provide screenshots and/or video to help the team understand the error. 
     validations:
-    required: Fals
+    required: False
 - type: dropdown
   attributes:
     label: Issue Type
