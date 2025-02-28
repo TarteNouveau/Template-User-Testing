@@ -9,6 +9,7 @@ body:
     label: Scenario Details
     description: Provide the scenario item number and scenario from the testing workbook
     placeholder: 1b, Enter impact percentage for the team
+  Validations:
     required: true
 - type: textarea
   attributes:
@@ -29,20 +30,20 @@ body:
     label: Expected Result
     description: What did you anticipate happening?
     placeholder: When submit was clicked, I expected an confirmation message that the impact percentages were successful 
-    validations:
+  validations:
     required: true
 - type: input
   attributes:
     label: Actual Result
     description: What did happen?
     placeholder: When I clicked submit, I got an error that said I did not enter 50+ characters. I checked to see if I entered 50+ characters and I did. 
-    validations:
+  validations:
     required: true
 - type: input
   attributes:
     label: Screenshots/Video
     description: Please provide screenshots and/or video to help the team understand the error. 
-    validations:
+  validations:
     required: False
 - type: dropdown
   attributes:
