@@ -1,6 +1,6 @@
 name: End User Testing Scenario Template
 description: Template to create scenarios for each program during end user testing
-title: End User Scenario Creation
+title: [Scenario]
 assignees: devonliana
 body:
 - type: input
@@ -21,13 +21,6 @@ body:
   attributes:
     label: Test As
     description: Provide user to proxy as, or enter Test as Self
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: Scenario
-    description: Include scenarios of different types ie positive, negative, boundary, edgecase, happy and unhappy paths
-    placeholder: Confirm inbox task assignement and instruction tests
   validations:
     required: true
 - type: textarea
