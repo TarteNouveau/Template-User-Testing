@@ -3,27 +3,27 @@ description: Template to create scenarios for each program during end user testi
 title: End User Scenario Creation
 assignees: devonliana
 body:
-   - type: input
+- type: input
   attributes:
     label: Test type
     description: Provide the type of test
     placeholder: Functionality testing
   validations:
     required: true
-  - type: input
+- type: input
   attributes:
     label: User type
     description: Provide the type of user for testing
     placeholder: HRPB
   validations:
     required: true
- - type: input
+- type: input
   attributes:
     label: Test As
     description: Provide user to proxy as, or enter Test as Self
   validations:
     required: true
-  - type: textarea
+- type: textarea
   attributes:
     label: Scenario
     description: Include scenarios of different types ie positive, negative, boundary, edgecase, happy and unhappy paths
