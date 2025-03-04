@@ -1,6 +1,6 @@
 name: End User Testing Scenario Template
 description: Template to create scenarios for each program during end user testing
-title: SCENARIO NAME
+title: ITEM NUMBER | SCENARIO NAME
 labels: scenario
 assignees: devonliana
 body:
