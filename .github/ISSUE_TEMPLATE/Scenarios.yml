@@ -1,6 +1,7 @@
 name: End User Testing Scenario Template
-description: Template for initial creation of scenarios related to projects
-title: End User Testing Scenario builder
+description: Template to create scenarios for each program during end user testing
+title: End User Scenario Creation
+assignees: devonliana
 body:
    - type: input
   attributes:
