@@ -1,0 +1,44 @@
+trigger: scenario-report
+title: Scenario report
+description: Testing 
+steps:
+- type: form
+  style: embedded
+  body:
+  - type: input
+    attributes:
+      id: testdate
+      label: Test date
+      description: Enter the date the test was run
+    attributes:
+      id: rag
+      label: Status
+      description: Mark the result of your test
+      multiple: false
+      options:
+        - label: "🟢 ─ Pass"
+        - label: "🔴 ─ Fail"
+        - label: "⚪️ ─ Pending"
+    validations:
+      required: true
+  - type: markdown
+  attributes:
+    value: "## Fails"
+- type: markdown
+  attributes:
+    value: |  
+      If a scenario has failed, create a sub issue with the bug reporting template  
+  actions:
+    submit: "Create"
+    cancel: "Discard"
+- type: fill
+  template: |-
+    ### Scenario report
+    
+    {{ data.rag }}
+    
+    ### Test date
+    
+    {{ data.testdate}
+    {{ data.next }}
+    {% endif %}
