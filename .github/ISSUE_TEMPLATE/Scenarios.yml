@@ -2,12 +2,6 @@ name: End User Testing Scenario Template
 description: Template for initial creation of scenarios related to projects
 title: End User Testing Scenario builder
 body:
- - type: input
-  attributes:
-    label: Item Number
-    description: Tests are numbered. If there is an additional number, perform those tests in order ie. 1.1, 1.2
-  validations:
-    required: true  
    - type: input
   attributes:
     label: Test type
