@@ -8,7 +8,7 @@ body:
     description: Tests are numbered. If there is an additional number, perform those tests in order ie. 1.1, 1.2
   validations:
     required: true
-- type: input
+  - type: input
   attributes:
     label: Test type
     description: Provide the type of test
