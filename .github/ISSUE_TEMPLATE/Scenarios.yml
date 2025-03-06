@@ -26,13 +26,6 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: Acceptance Criteria
-    description: Describe what needs to happen for the test to be considered successful
-    placeholder: Employee successfully views inbox task
-  validations:
-    required: True
-- type: textarea
-  attributes:
     label: Test Steps
     description: Outline necessary steps when to proxy, reports to check, tasks to complete to ensure configuration is working as intended
     placeholder: Confirm details of inbox task, click submit and check report to see that the action is complete 
@@ -40,8 +33,8 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: Expected Result
-    description: What should happen?
-    placeholder: Inbox task should exist, should be able to submit, and report should list employee as completed. 
+    label: Acceptance Criteria
+    description: Describe what needs to happen for the test to be considered successful
+    placeholder: Employee successfully views inbox task
   validations:
-    required: true
+    required: True
