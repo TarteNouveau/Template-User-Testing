@@ -1,2 +1,2 @@
-# OctoBot for HR UAT 
-User Testing Repo for OctoBot for HR - Enterprise Answers
+# OctoBot Template for UAT 
+User Testing Repo Template for OctoBot
