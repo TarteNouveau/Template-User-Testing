@@ -6,23 +6,19 @@ body:
 - type: textarea
   attributes:
     label: Query
-    description: Provide the exact query you asked OctoBot.
-    placeholder: How much PTO do we get in the UK?
-  validations:
-    required: true
-- type: dropdown
-  attributes:
-    label: Pass or Fail?
-    description: If the response failed, please open a bug ticket to track the error for follow up. 
-    options: 
-    - Pass
-    - Fail
+    placeholder: Provide the exact query you asked OctoBot.
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Response
-    placeholder: Provide a screenshot of OctoBots response and links to the Zendesk articles referenced
+    label: Expected Response
+    placeholder: What answer did you expect to receive? Link the article in Zendesk where the answer can be found. 
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Actual Response
+    placeholder: Provide a screenshot of the response and links to any documentation Octobot referenced. 
   validations:
     required: true
 - type: textarea
