@@ -10,9 +10,9 @@ body:
     placeholder: link the scenario issue here
   validations:
     required: true
-- type: input
+- type: textarea
   attributes:
-    label: result
+    label: Result
     placeholder: Wrong answer, no answer
   validations:
     required: true
