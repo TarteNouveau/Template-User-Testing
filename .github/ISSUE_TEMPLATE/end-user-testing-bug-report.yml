@@ -7,8 +7,8 @@ body:
 - type: textarea
   attributes:
     label: Scenario Details
-    description: Provide the scenario issue number and scenario from the testing workbook
-    placeholder: 1b, Enter impact percentage for the team
+    description: Provide the scenario issue number
+    placeholder: link the scenario issue here
   validations:
     required: true
 - type: textarea
@@ -21,8 +21,8 @@ body:
 - type: textarea
   attributes:
     label: Query
-    description: Provide the exact query (question) you used. 
-    placeholder: eg: How much PTO do we get in the UK?
+    description: Provide the exact query you used. 
+    placeholder: How much PTO do we get in the UK?
   validations:
     required: True
 - type: textarea
