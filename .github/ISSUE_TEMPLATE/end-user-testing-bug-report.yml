@@ -2,18 +2,12 @@ name: End User Testing Bug Reporting Template
 description: Template to report bugs for each program during end user testing
 title: End User Testing Bug Report
 labels: bug
-assignees: devonliana
+assignees: tartenouveau
 body:
-- type: input
-  attributes:
-    label: Reporter Name
-    description: Provide your name
-  validations:
-    required: true
 - type: textarea
   attributes:
     label: Scenario Details
-    description: Provide the scenario item number and scenario from the testing workbook
+    description: Provide the scenario issue number and scenario from the testing workbook
     placeholder: 1b, Enter impact percentage for the team
   validations:
     required: true
@@ -21,34 +15,27 @@ body:
   attributes:
     label: Description
     description: What happened?
-    placeholder: Recieved an error after submission
+    placeholder: Octobot couldnt find the answer
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Steps
-    description: Outline the steps you took when you encountered the bug
-    placeholder: 1) Clicked into the tab for impact percentage 2) entered impact percentage for all direct reports 3) entered a 50+ character reward justification 4) Clicked Submit
+    label: Query
+    description: Provide the exact query (question) you used. 
+    placeholder: eg: How much PTO do we get in the UK?
   validations:
     required: True
 - type: textarea
   attributes:
-    label: Expected Result
-    description: What did you anticipate happening?
-    placeholder: When submit was clicked, I expected an confirmation message that the impact percentages were successful 
+    label: Expected Response
+    description: What answer did you expect to receive? 
+    placeholder: Provide a link to the article in Zendesk with the answer included. 
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Actual Result
-    description: What did happen?
-    placeholder: When I clicked submit, I got an error that said I did not enter 50+ characters. I checked to see if I entered 50+ characters and I did. 
+    label: Actual Response
+    description: How did Octobot Respond?
+    placeholder: Provide a screenshot of the response and links to any documentation Octobot referenced. 
   validations:
     required: true
-- type: textarea
-  attributes:
-    label: Screenshots/Video
-    description: Please provide screenshots and/or video to help the team understand the error.
-    placeholder: Use the paperclip below this text box to paste, drop, or click to add your file
-  validations:
-    required: False
