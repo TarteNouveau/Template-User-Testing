@@ -11,7 +11,6 @@ body:
   validations:
     required: true
 - type: dropdown
-  id: pass or fail
   attributes:
     label: Pass or Fail?
     description: If the response failed, please open a bug ticket to track the error for follow up. 
