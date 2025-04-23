@@ -3,7 +3,7 @@ description: Issue template for tracking test queries.
 title: ITEM NUMBER | SCENARIO NAME
 labels: scenario
 body:
-- type: input
+- type: textarea
   attributes:
     label: Query
     description: Provide the exact query you asked OctoBot.
