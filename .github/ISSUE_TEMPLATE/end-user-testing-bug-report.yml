@@ -7,35 +7,30 @@ body:
 - type: textarea
   attributes:
     label: Scenario Details
-    description: Provide the scenario issue number
     placeholder: link the scenario issue here
   validations:
     required: true
-- type: textarea
+- type: input
   attributes:
-    label: Description
-    description: What happened?
-    placeholder: Octobot couldnt find the answer, or answered incorrectly
+    label: result
+    placeholder: Wrong answer, no answer
   validations:
     required: true
 - type: textarea
   attributes:
     label: Query
-    description: Provide the exact query you used. 
-    placeholder: How much PTO do we get in the UK?
+    placeholder: Provide the exact query you used. 
   validations:
     required: True
 - type: textarea
   attributes:
     label: Expected Response
-    description: What answer did you expect to receive? 
-    placeholder: Provide a link to the article in Zendesk where the answer can be found. 
+    placeholder: What answer did you expect to receive? Link the article in Zendesk where the answer can be found. 
   validations:
     required: true
 - type: textarea
   attributes:
     label: Actual Response
-    description: How did Octobot Respond?
     placeholder: Provide a screenshot of the response and links to any documentation Octobot referenced. 
   validations:
     required: true
