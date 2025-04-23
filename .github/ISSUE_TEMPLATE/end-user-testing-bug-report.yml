@@ -7,13 +7,13 @@ body:
 - type: textarea
   attributes:
     label: Scenario Details
-    placeholder: link the scenario issue here
+    placeholder: Link the scenario issue here.
   validations:
     required: true
 - type: textarea
   attributes:
     label: Result
-    placeholder: Wrong answer, no answer
+    placeholder: Wrong answer? no answer?
   validations:
     required: true
 - type: textarea
