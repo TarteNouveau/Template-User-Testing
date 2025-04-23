@@ -1,39 +1,36 @@
-name: End User Testing Scenario Template
-description: Template to create scenarios for each program during end user testing
+name: Octobot Testing Scenario Template
+description: Issue template for tracking test queries.
 title: ITEM NUMBER | SCENARIO NAME
 labels: scenario
 body:
 - type: input
   attributes:
-    label: Test type
-    description: Provide the type of test
-    placeholder: Functionality testing
+    label: Query
+    description: Provide the exact query you asked OctoBot.
+    placeholder: How much PTO do we get in the UK?
   validations:
     required: true
-- type: input
+- type: dropdown
+  id: pass or fail
   attributes:
-    label: User type
-    description: Provide the type of user for testing
-    placeholder: HRPB
-  validations:
-    required: true
-- type: input
-  attributes:
-    label: Test As
-    description: Provide user to proxy as, or enter Test as Self
+    label: Pass or Fail?
+    description: If the response failed, please open a bug ticket to track the error for follow up. 
+    options: 
+    - Pass
+    - Fail
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Test Steps
-    description: Outline necessary steps when to proxy, reports to check, tasks to complete to ensure configuration is working as intended
-    placeholder: Confirm details of inbox task, click submit and check report to see that the action is complete 
+    label: Response
+    description: How did OctoBot respond to the Query
+    placeholder: Provide a screenshot of OctoBots response and links to the Zendesk articles referenced
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Acceptance Criteria
-    description: Describe what needs to happen for the test to be considered successful
-    placeholder: Employee successfully views inbox task
+    label: Comments
+    description: Anything else to share?
+    placeholder: 
   validations:
-    required: True
+    required: False
