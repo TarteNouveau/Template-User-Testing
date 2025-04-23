@@ -29,7 +29,7 @@ body:
   attributes:
     label: Expected Response
     description: What answer did you expect to receive? 
-    placeholder: Provide a link to the article in Zendesk with the answer included. 
+    placeholder: Provide a link to the article in Zendesk where the answer can be found. 
   validations:
     required: true
 - type: textarea
