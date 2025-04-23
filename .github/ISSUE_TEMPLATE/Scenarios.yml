@@ -22,14 +22,12 @@ body:
 - type: textarea
   attributes:
     label: Response
-    description: How did OctoBot respond to the Query
     placeholder: Provide a screenshot of OctoBots response and links to the Zendesk articles referenced
   validations:
     required: true
 - type: textarea
   attributes:
     label: Comments
-    description: Anything else to share?
-    placeholder: 
+    placeholder: Anything else to share?
   validations:
     required: False
