@@ -15,7 +15,7 @@ body:
   attributes:
     label: Description
     description: What happened?
-    placeholder: Octobot couldnt find the answer
+    placeholder: Octobot couldnt find the answer, or answered incorrectly
   validations:
     required: true
 - type: textarea
